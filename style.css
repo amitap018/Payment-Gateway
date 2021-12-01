@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.white{
+	color: rgb(241, 6, 6);
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+.red{
+    color: rgb(5, 0, 0);
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+	padding:30px;
+}
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+	padding: 10px;
+	background:#fcfcfc; 
+	color:rgb(0, 0, 0);
+	
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: justify;
+	
+}
+
+.donate{
+	padding: 20px;
+    color: rgb(255, 255, 255);
+	background: url(http://www.incomeactivator.com/images/freebg5.jpg);
+    border-radius: 10px;
+}
+.btn:hover{
+	background:#fcfcfc; 
+	color:rgb(0, 0, 0);
+}
+label{
+    display: inline-block;
+    width: 20%;
+    text-align:start;
+}
+#message
+{
+	margin-bottom: -38px;
+}
+input, textarea {
+  display: inline-block;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.about{
+	display: flex;
+}
+
+img{
+	width: 300px;	
+	opacity: 0.8;
+}
+
+.background{
+	background:rgba(0, 0, 0, 0.4) url('donate.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-blend-mode:darken;
+}
+
+.content{
+	min-height:93vh;
+}
+
+.btn{
+	border:black;
+	background:#e00517; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	
+
+}
+.mybtn{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+footer{
+	text-align: center;
+	background-color: rgba(228, 228, 228, 0.8);
+	overflow: hidden;
+	padding-top: 5px;
+}
